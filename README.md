@@ -1,2 +1,17 @@
-# SakugaDataset
-Official implementations for Sakuga-42M Dataset
+<!--
+ █████╗ ███╗   ██╗██╗████████╗ █████╗     ██████╗ ███████╗███████╗███████╗ █████╗ ██████╗  ██████╗██╗  ██╗
+██╔══██╗████╗  ██║██║╚══██╔══╝██╔══██╗    ██╔══██╗██╔════╝██╔════╝██╔════╝██╔══██╗██╔══██╗██╔════╝██║  ██║
+███████║██╔██╗ ██║██║   ██║   ███████║    ██████╔╝█████╗  ███████╗█████╗  ███████║██████╔╝██║     ███████║
+██╔══██║██║╚██╗██║██║   ██║   ██╔══██║    ██╔══██╗██╔══╝  ╚════██║██╔══╝  ██╔══██║██╔══██╗██║     ██╔══██║
+██║  ██║██║ ╚████║██║   ██║   ██║  ██║    ██║  ██║███████╗███████║███████╗██║  ██║██║  ██║╚██████╗██║  ██║
+╚═╝  ╚═╝╚═╝  ╚═══╝╚═╝   ╚═╝   ╚═╝  ╚═╝    ╚═╝  ╚═╝╚══════╝╚══════╝╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝
+                                                                                                          
+-->
+
+
+![img1](https://github.com/zhenglinpan/Awesome-Animation-Research/blob/master/assets/teaser.gif)
+
+<h1 align="center">SAKUGA-42M DATASET</h1>
+
+[![Paper](https://img.shields.io/badge/cs.CV-2403.06977-b31b1b?logo=arxiv&logoColor=red)](https://arxiv.org/abs/2403.06977)
+![Project Page](https://img.shields.io/badge/Project-Website-green)](https://snap-research.github.io/Panda-70M)
