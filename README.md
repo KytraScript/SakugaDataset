@@ -71,8 +71,8 @@ Detailed Explation for each attributes can be found in [Dataset Dataloading](./d
       <td width=33.3% style="border: none">Tiedown(TP)</td>
     </tr>
     <tr>
-      <td width=33.3% style="border: none"><img src="./assets/gif/rough.gif"></td>
-      <td width=33.3% style="border: none"><img src="./assets/gif/undead_unluck.gif"></td>
+      <td width=33.3% style="border: none"><img src="https://github.com/zhenglinpan/SakugaDataset/blob/main/assets/gif/rough.gif"></td>
+      <td width=33.3% style="border: none"><img src="https://github.com/zhenglinpan/SakugaDataset/blob/main/assets/gif/undead_unluck.gif"></td>
     </tr>
 
   </table>
@@ -83,8 +83,8 @@ Detailed Explation for each attributes can be found in [Dataset Dataloading](./d
       <td width=33.3% style="border: none">Asian</td>
     </tr>
     <tr>
-      <td width=33.3% style="border: none"><img src="./assets/gif/mickey.gif"></td>
-      <td width=33.3% style="border: none"><img src="./assets/gif/miyamori.gif"></td>
+      <td width=33.3% style="border: none"><img src="https://github.com/zhenglinpan/SakugaDataset/blob/main/assets/gif/mickey.gif"></td>
+      <td width=33.3% style="border: none"><img src="https://github.com/zhenglinpan/SakugaDataset/blob/main/assets/gif/miyamori.gif"></td>
     </tr>
   </table>
 
@@ -94,17 +94,17 @@ Detailed Explation for each attributes can be found in [Dataset Dataloading](./d
       <td width=33.3% style="border: none">Illus-Look</td>
     </tr>
     <tr>
-      <td width=33.3% style="border: none"><img src="./assets/gif/sakura.gif"></td>
-      <td width=33.3% style="border: none"><img src="./assets/gif/diamond.gif"></td>
+      <td width=33.3% style="border: none"><img src="https://github.com/zhenglinpan/SakugaDataset/blob/main/assets/gif/sakura.gif"></td>
+      <td width=33.3% style="border: none"><img src="https://github.com/zhenglinpan/SakugaDataset/blob/main/assets/gif/diamond.gif"></td>
     </tr>
   </table>
 
 ### Video-Text Descriptions Pairs
   <table class="center">
     <tr>
-      <td width=33.3% style="border: none"><img src="./assets/gif/♪❤muteki❤no❤idoru❤♪-Scene-0091_1_fps14.gif"></td>
-      <td width=33.3% style="border: none"><img src="./assets/gif/cthulhumusume(zannenn)-Scene-0021_1_fps14.gif"></td>
-      <td width=33.3% style="border: none"><img src="./assets/gif/👓miraiinaimiraiwawatashigahoshikunainnda!👓-Scene-0011_1_fps14.gif"></td>
+      <td width=33.3% style="border: none"><img src="https://github.com/zhenglinpan/SakugaDataset/blob/main/assets/gif/♪❤muteki❤no❤idoru❤♪-Scene-0091_1_fps14.gif"></td>
+      <td width=33.3% style="border: none"><img src="https://github.com/zhenglinpan/SakugaDataset/blob/main/assets/gif/cthulhumusume(zannenn)-Scene-0021_1_fps14.gif"></td>
+      <td width=33.3% style="border: none"><img src="https://github.com/zhenglinpan/SakugaDataset/blob/main/assets/gif/👓miraiinaimiraiwawatashigahoshikunainnda!👓-Scene-0011_1_fps14.gif"></td>
     </tr>
     <tr style="text-align: center;">
       <td width=33.3% style="border: none">Multiple girls with blonde, red, and brown hair, wearing idol outfits, dance in a line on stage...
@@ -116,9 +116,9 @@ Detailed Explation for each attributes can be found in [Dataset Dataloading](./d
 
   <table class="center">
     <tr>
-      <td width=33.3% style="border: none"><img src="./assets/gif/naruto!doushida!-Scene-0101_1_fps14.gif"></td>
-      <td width=33.3% style="border: none"><img src="./assets/gif/bluefat_and_his_friends-Scene-0011_1_fps14.gif"></td>
-      <td width=33.3% style="border: none"><img src="./assets/gif/★pokemon★getto★daze★!-Scene-0081_1_fps14.gif"></td>
+      <td width=33.3% style="border: none"><img src="https://github.com/zhenglinpan/SakugaDataset/blob/main/assets/gif/naruto!doushida!-Scene-0101_1_fps14.gif"></td>
+      <td width=33.3% style="border: none"><img src="https://github.com/zhenglinpan/SakugaDataset/blob/main/assets/gif/bluefat_and_his_friends-Scene-0011_1_fps14.gif"></td>
+      <td width=33.3% style="border: none"><img src="https://github.com/zhenglinpan/SakugaDataset/blob/main/assets/gif/★pokemon★getto★daze★!-Scene-0081_1_fps14.gif"></td>
     </tr>
     <tr style="text-align: center;">
       <td width=33.3% style="border: none">an anime character kneels on a red surface while a man in white and black stands behind...</td>
@@ -129,9 +129,9 @@ Detailed Explation for each attributes can be found in [Dataset Dataloading](./d
 
   <table class="center">
     <tr>
-      <td width=33.3% style="border: none"><img src="./assets/gif/nobitanofriend-Scene-0021_1_fps14.gif"></td>
-      <td width=33.3% style="border: none"><img src="./assets/gif/ribai!!_1_fps14"></td>
-      <td width=33.3% style="border: none"><img src="./assets/gif/1NMpoAqzJfY.25.gif"></td>
+      <td width=33.3% style="border: none"><img src="https://github.com/zhenglinpan/SakugaDataset/blob/main/assets/gif/nobitanofriend-Scene-0021_1_fps14.gif"></td>
+      <td width=33.3% style="border: none"><img src="https://github.com/zhenglinpan/SakugaDataset/blob/main/assets/gif/ribai!!_1_fps14"></td>
+      <td width=33.3% style="border: none"><img src="https://github.com/zhenglinpan/SakugaDataset/blob/main/assets/gif/1NMpoAqzJfY.25.gif"></td>
     </tr>
     <tr style="text-align: center;">
       <td width=33.3% style="border: none">the dinosaur emerges from the egg shell, curled up in the blanket...</td>
