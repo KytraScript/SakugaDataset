@@ -37,38 +37,80 @@ We hope more researchers could join us in this journey to explore the potential 
 ## Content
 
 This repository contains the following:
-- Dataset itself
-- Data Preperation Pipelines
-- Pretrained Models
+- Dataset
+- Preperation Pipelines
+- Pretrained Models(WIP)
 
-### Download
+
+## Download
+
   | Split           | Download | # Keyframes | # Clips | # Videos | Storage|
   |-----------------|----------|-----------------|-----------|----------------|--------------|
-  |  Example  | [link](https://drive.google.com/file/d/1vEP5qzfep2aAvjJ5HUeMl62JEn9sS20a/view?usp=drive_link) (27 KB) | 51   | 1  | 1 | ~2 MB |
-  | Training | [link](https://drive.google.com/file/d/1r71XniKSqIqZM3prtaj9-mWez9bR48uJ/view?usp=drive_link) (529 MB) | 38,137,371 | 1,117,898 | 142,089  | ~441 GB  |
-  | Training (Aesthetic)    | [link](https://drive.google.com/file/d/1d23Y7S2hUtla0FkOkB-ruqsieTpRNbCL/view?usp=drive_link) (74.5 MB)  | 6,154,562     | 139,989      | 61,273  | ~56 GB |
-  | Training (Small)         | [link](https://drive.google.com/file/d/1PfSSRFM7jAQPNzPPeXeXsTAy9lLjOAVp/view?usp=drive_link) (53.6 MB)  | 3,811,189     | 111,790      | 68,326  | ~45 GB |
-  | Validation  | [link](https://drive.google.com/file/d/13H_LGs1CiYbwDKEbn790km71hqmPsaZn/view?usp=drive_link) (28.6 MB)  | 2,035,853 | 59,717 | 44,564 | ~25 GB |
-  |  Testing  | [link](https://drive.google.com/file/d/1-Sb4MkWf3bPItT610FiOsJj_PSmqxCfp/view?usp=drive_link) (28.5 MB) | 2,018,545   | 59,718  | 44,247 | ~25 GB |
+  | Training(Full) | [link](https://drive.google.com/file/d/1lIHg-QdC3UaU0eT23bOrsYJF5Clmi43U/view?usp=drive_link) (529 MB) | 38,137,371 | 1,117,898 | 142,089  | ~441 GB  |
+  | Training (Aesthetic)    | [link](https://drive.google.com/file/d/115w27NosKhwDK_2BbAQ3twS6n3vDvAxV/view?usp=drive_link) (74.5 MB)  | 6,154,562     | 139,989      | 61,273  | ~56 GB |
+  | Training (Small)         | [link](https://drive.google.com/file/d/17CWls-_i7O2x2v4QzfSVNefELv3Rtyx1/view?usp=drive_link) (53.6 MB)  | 3,811,189     | 111,790      | 68,326  | ~45 GB |
+  | Validation  | [link](https://drive.google.com/file/d/1hppEnwjAXKV2UWgt04NPRfpnQAz7Mttf/view?usp=drive_link) (28.6 MB)  | 2,035,853 | 59,717 | 44,564 | ~25 GB |
+  |  Testing  | [link](https://drive.google.com/file/d/1PAweBehBfQ5WbvzpzAx2kXsxi8v0lk7O/view?usp=drive_link) (28.5 MB) | 2,018,545   | 59,718  | 44,247 | ~25 GB |
 
+For details of the parquet files, please refer to: [./instruction/dataset_details.md]
 
-Detailed Explation for each attributes can be found in [Dataset Dataloading](./dataset_dataloading) section.
+### Preperation Pipeline
+![img1](https://github.com/zhenglinpan/SakugaDataset/blob/main/assets/img/pipeline.png)
 
-### Collection Pipeline
-<p align="center" width="100%">
-<a target="_blank"><img src="assets/collection_pipeline.gif" style="width: 100%; min-width: 200px; display: block; margin: auto;"></a>
-</p>
+#### 1. Setup environment
+
+```bash
+git clone https://github.com/zhenglinpan/SakugaDataset.git
+
+conda create -n sakuga -y
+conda activate sakuga
+
+pip install -r requirement.txt
+```
+
+#### 2. Download Dataset
+
+One-key solution for downloading all videos😉:
+  ```bash
+  cd download
+  bash download.sh
+  ```
+Or step by step:
+   
+1. Download the parquet files from the following links and put them into `./download/parquet` folder.
+
+2. Run `./download/download.py` to download the videos, files will be saved in `./download/download` by default.
+
+**note:** this step takes at least `15` hours.
+
+#### 3. Split Videos
+Run the code to split videos into smaller clips
+```bash
+cd prepare_dataset
+python split_video.py
+```
+
+#### 4. Extract Keyframes
+And remove the repetitive frames
+```bash
+cd prepare_dataset
+python detect_keyframes.py
+```
+
+#### 5. Good to Go
+
+We will be releasing the code for tagging/rating, captioning, and text detection in near future for future expansion of the dataset. Stay tuned.
+
+## Supporting Research
+![img1](https://github.com/zhenglinpan/SakugaDataset/blob/main/assets/img/feature_research.png)
 
 ## Demonstration
-
-### Supporting Research
-![img1](https://github.com/zhenglinpan/SakugaDataset/blob/main/assets/img/feature_research.png)
 
 ### Diversity
   <table class="center">
     <tr style="text-align: center;">
-      <td width=33.3% style="border: none">Rough Sketch</td>
-      <td width=33.3% style="border: none">Tiedown(TP)</td>
+      <td width=33.3% style="border: none; font-weight: bold;">Rough Sketch</td>
+      <td width=33.3% style="border: none; font-weight: bold;">Tiedown(TP)</td>
     </tr>
     <tr>
       <td width=33.3% style="border: none"><img src="https://github.com/zhenglinpan/SakugaDataset/blob/main/assets/gif/rough.gif"></td>
@@ -79,8 +121,8 @@ Detailed Explation for each attributes can be found in [Dataset Dataloading](./d
 
   <table class="center">
     <tr style="text-align: center;">
-      <td width=33.3% style="border: none">Western</td>
-      <td width=33.3% style="border: none">Asian</td>
+    <td width="33.3%" style="border: none; font-weight: bold;">Western</td>
+    <td width="33.3%" style="border: none; font-weight: bold;">Asian</td>
     </tr>
     <tr>
       <td width=33.3% style="border: none"><img src="https://github.com/zhenglinpan/SakugaDataset/blob/main/assets/gif/mickey.gif"></td>
@@ -90,8 +132,8 @@ Detailed Explation for each attributes can be found in [Dataset Dataloading](./d
 
   <table class="center">
     <tr style="text-align: center;">
-      <td width=33.3% style="border: none">Cell-Look</td>
-      <td width=33.3% style="border: none">Illus-Look</td>
+      <td width=33.3% style="border: none; font-weight: bold;">Cell-Look</td>
+      <td width=33.3% style="border: none; font-weight: bold;">Illus-Look</td>
     </tr>
     <tr>
       <td width=33.3% style="border: none"><img src="https://github.com/zhenglinpan/SakugaDataset/blob/main/assets/gif/sakura.gif"></td>
@@ -107,7 +149,7 @@ Detailed Explation for each attributes can be found in [Dataset Dataloading](./d
       <td width=33.3% style="border: none"><img src="https://github.com/zhenglinpan/SakugaDataset/blob/main/assets/gif/👓miraiinaimiraiwawatashigahoshikunainnda!👓-Scene-0011_1_fps14.gif"></td>
     </tr>
     <tr style="text-align: center;">
-      <td width=33.3% style="border: none">Multiple girls with blonde, red, and brown hair, wearing idol outfits, dance in a line on stage...
+      <td width=33.3% style="border: none">multiple girls with blonde, red, and brown hair, wearing idol outfits, dance in a line on stage...
 </td>
       <td width=33.3% style="border: none">Nyarlathotep holds out her arms with a glowing face. The second frame shows her in a store..</td>
       <td width=33.3% style="border: none">Her hair is now curled back as she smiles, still in the same outfit and setting...</td>
@@ -123,7 +165,7 @@ Detailed Explation for each attributes can be found in [Dataset Dataloading](./d
     <tr style="text-align: center;">
       <td width=33.3% style="border: none">an anime character kneels on a red surface while a man in white and black stands behind...</td>
       <td width=33.3% style="border: none">a diverse group of cartoon characters gathers around a table, enjoying a meal with a variety of dishes...</td>
-      <td width=33.3% style="border: none">A cute green cat with fangs, tongue, and a smile, jumps with energy and glowing aura...</td>
+      <td width=33.3% style="border: none">a cute green cat with fangs, tongue, and a smile, jumps with energy and glowing aura...</td>
     </tr>
   </table>
 
@@ -136,7 +178,7 @@ Detailed Explation for each attributes can be found in [Dataset Dataloading](./d
     <tr style="text-align: center;">
       <td width=33.3% style="border: none">the dinosaur emerges from the egg shell, curled up in the blanket...</td>
       <td width=33.3% style="border: none">in an anime clip, a man in a suit falls from a building, holding onto a rope...</td>
-      <td width=33.3% style="border: none">Aa smiling man clenches his teeth, looking at the viewer. A beam shoots out...</td>
+      <td width=33.3% style="border: none">a beam shoots out from his clenched fist in a battle scene. The man, now standing on a hill... </td>
     </tr>
   </table>
 

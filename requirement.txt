@@ -1,0 +1,7 @@
+requests
+pandas
+tqdm
+gdown
+opencv
+scenedetect
+scikit-image
