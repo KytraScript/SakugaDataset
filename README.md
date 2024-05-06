@@ -44,9 +44,9 @@ This repository contains the following:
 ### Download
   | Split           | Download | # Keyframes | # Clips | # Videos | Storage|
   |-----------------|----------|-----------------|-----------|----------------|--------------|
-  |  Example  | [link]() (27 KB) | 51   | 1  | 1 | ~2 MB |
+  |  Example  | [link](https://drive.google.com/file/d/1vEP5qzfep2aAvjJ5HUeMl62JEn9sS20a/view?usp=drive_link) (27 KB) | 51   | 1  | 1 | ~2 MB |
   | Training | [link](https://drive.google.com/file/d/1r71XniKSqIqZM3prtaj9-mWez9bR48uJ/view?usp=drive_link) (529 MB) | 38,137,371 | 1,117,898 | 142,089  | ~441 GB  |
-  | Training (Aesthetic)    | [link](https://drive.google.com/file/d/1vEP5qzfep2aAvjJ5HUeMl62JEn9sS20a/view?usp=drive_link) (74.5 MB)  | 6,154,562     | 139,989      | 61,273  | ~56 GB |
+  | Training (Aesthetic)    | [link](https://drive.google.com/file/d/1d23Y7S2hUtla0FkOkB-ruqsieTpRNbCL/view?usp=drive_link) (74.5 MB)  | 6,154,562     | 139,989      | 61,273  | ~56 GB |
   | Training (Small)         | [link](https://drive.google.com/file/d/1PfSSRFM7jAQPNzPPeXeXsTAy9lLjOAVp/view?usp=drive_link) (53.6 MB)  | 3,811,189     | 111,790      | 68,326  | ~45 GB |
   | Validation  | [link](https://drive.google.com/file/d/13H_LGs1CiYbwDKEbn790km71hqmPsaZn/view?usp=drive_link) (28.6 MB)  | 2,035,853 | 59,717 | 44,564 | ~25 GB |
   |  Testing  | [link](https://drive.google.com/file/d/1-Sb4MkWf3bPItT610FiOsJj_PSmqxCfp/view?usp=drive_link) (28.5 MB) | 2,018,545   | 59,718  | 44,247 | ~25 GB |
@@ -103,7 +103,7 @@ Detailed Explation for each attributes can be found in [Dataset Dataloading](./d
   <table class="center">
     <tr>
       <td width=33.3% style="border: none"><img src="https://github.com/zhenglinpan/SakugaDataset/blob/main/assets/gif/♪❤muteki❤no❤idoru❤♪-Scene-0091_1_fps14.gif"></td>
-      <td width=33.3% style="border: none"><img src="https://github.com/zhenglinpan/SakugaDataset/blob/main/assets/gif/cthulhumusume(zannenn)-Scene-0021_1_fps14.gif"></td>
+      <td width=33.3% style="border: none"><img src="https://github.com/zhenglinpan/SakugaDataset/blob/main/assets/gif/cthulhu_musume_(zannenn)-Scene-0021_1_fps14(zannenn)-Scene-0021_1_fps14.gif"></td>
       <td width=33.3% style="border: none"><img src="https://github.com/zhenglinpan/SakugaDataset/blob/main/assets/gif/👓miraiinaimiraiwawatashigahoshikunainnda!👓-Scene-0011_1_fps14.gif"></td>
     </tr>
     <tr style="text-align: center;">
@@ -130,8 +130,8 @@ Detailed Explation for each attributes can be found in [Dataset Dataloading](./d
   <table class="center">
     <tr>
       <td width=33.3% style="border: none"><img src="https://github.com/zhenglinpan/SakugaDataset/blob/main/assets/gif/nobitanofriend-Scene-0021_1_fps14.gif"></td>
-      <td width=33.3% style="border: none"><img src="https://github.com/zhenglinpan/SakugaDataset/blob/main/assets/gif/ribai!!_1_fps14"></td>
-      <td width=33.3% style="border: none"><img src="https://github.com/zhenglinpan/SakugaDataset/blob/main/assets/gif/1NMpoAqzJfY.25.gif"></td>
+      <td width=33.3% style="border: none"><img src="https://github.com/zhenglinpan/SakugaDataset/blob/main/assets/gif/ribai!!_1_fps14.gif"></td>
+      <td width=33.3% style="border: none"><img src="https://github.com/zhenglinpan/SakugaDataset/blob/main/assets/gif/ekubo!!!-Scene-0021_1_fps14.gif"></td>
     </tr>
     <tr style="text-align: center;">
       <td width=33.3% style="border: none">the dinosaur emerges from the egg shell, curled up in the blanket...</td>
