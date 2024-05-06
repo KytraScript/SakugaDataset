@@ -98,8 +98,9 @@ python detect_keyframes.py
 ```
 
 #### 5. Good to Go
+At this time, you should have the dataset ready for your research.
 
-We will be releasing the code for tagging/rating, captioning, and text detection in near future for future expansion of the dataset. Stay tuned.
+We will be releasing the code for our tagging/rating, captioning, and text detection in near future in case users want to expand the dataset. Stay tuned.
 
 ## Supporting Research
 ![img1](https://github.com/zhenglinpan/SakugaDataset/blob/main/assets/img/feature_research.png)
