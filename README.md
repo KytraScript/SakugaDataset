@@ -103,7 +103,7 @@ Detailed Explation for each attributes can be found in [Dataset Dataloading](./d
   <table class="center">
     <tr>
       <td width=33.3% style="border: none"><img src="https://github.com/zhenglinpan/SakugaDataset/blob/main/assets/gif/♪❤muteki❤no❤idoru❤♪-Scene-0091_1_fps14.gif"></td>
-      <td width=33.3% style="border: none"><img src="https://github.com/zhenglinpan/SakugaDataset/blob/main/assets/gif/cthulhu_musume_(zannenn)-Scene-0021_1_fps14(zannenn)-Scene-0021_1_fps14.gif"></td>
+      <td width=33.3% style="border: none"><img src="https://github.com/zhenglinpan/SakugaDataset/blob/main/assets/gif/cthulhu_musume_(zannenn)-Scene-0021_1_fps14.gif"></td>
       <td width=33.3% style="border: none"><img src="https://github.com/zhenglinpan/SakugaDataset/blob/main/assets/gif/👓miraiinaimiraiwawatashigahoshikunainnda!👓-Scene-0011_1_fps14.gif"></td>
     </tr>
     <tr style="text-align: center;">
