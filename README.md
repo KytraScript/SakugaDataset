@@ -34,16 +34,15 @@ Sakuga-42M Dataset is the first large-scale cartoon animation dataset, comprisin
 
 We hope more researchers could join us in this journey to explore the potential of cartoon animation research. Suggestions and contributions are always welcome.
 
-## Content
-
-This repository contains the following:
-- Dataset
-- Preperation Pipelines
-- Pretrained Models(WIP)
+## TO-DO
+- [x] Release the dataset parquet files
+- [x] Release the dataset preparation codes
+- [ ] Release the tagging/rating, captioning, and text detection pipelines
 
 
 ## Download
 
+### Dataset
   | Split           | Download | # Keyframes | # Clips | # Videos | Storage|
   |-----------------|----------|-----------------|-----------|----------------|--------------|
   | Training(Full) | [link](https://drive.google.com/file/d/1lIHg-QdC3UaU0eT23bOrsYJF5Clmi43U/view?usp=drive_link) (529 MB) | 38,137,371 | 1,117,898 | 142,089  | ~441 GB  |
@@ -54,8 +53,10 @@ This repository contains the following:
 
 For details of the parquet files, please refer to: [./instruction/dataset_details.md]
 
-### Preperation Pipeline
+## Preperation
 ![img1](https://github.com/zhenglinpan/SakugaDataset/blob/main/assets/img/pipeline.png)
+
+Please follow the instructions below to prepare the complete dataset.
 
 #### 1. Setup environment
 
