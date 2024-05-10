@@ -37,6 +37,7 @@ We hope that more researchers could join us on this journey to explore the poten
 ## TO-DO
 - [x] Release the dataset parquet files
 - [x] Release the dataset preparation codes
+- [ ] Release the pre-trained models
 - [ ] Release the tagging/rating, captioning, and text detection pipelines
 
 
@@ -50,8 +51,6 @@ We hope that more researchers could join us on this journey to explore the poten
   | Training (Small)         | [link](https://drive.google.com/file/d/17CWls-_i7O2x2v4QzfSVNefELv3Rtyx1/view?usp=drive_link) (53.6 MB)  | 3,811,189     | 111,790      | 68,326  | ~45 GB |
   | Validation  | [link](https://drive.google.com/file/d/1hppEnwjAXKV2UWgt04NPRfpnQAz7Mttf/view?usp=drive_link) (28.6 MB)  | 2,035,853 | 59,717 | 44,564 | ~25 GB |
   |  Testing  | [link](https://drive.google.com/file/d/1PAweBehBfQ5WbvzpzAx2kXsxi8v0lk7O/view?usp=drive_link) (28.5 MB) | 2,018,545   | 59,718  | 44,247 | ~25 GB |
-
-For details of the parquet files, please refer to: [./instruction/dataset_details.md]
 
 ## Preperation
 ![img1](https://github.com/zhenglinpan/SakugaDataset/blob/main/assets/img/pipeline.png)
@@ -98,13 +97,13 @@ cd prepare_dataset
 python detect_keyframes.py
 ```
 
-#### 5. Good to Go
-At this time, you should have the dataset ready for your research.
+#### 5. Good-To-Go !
+At this time, you should have the dataset ready for your research. Enjoy!
 
 We will be releasing the code for our tagging/rating, captioning, and text detection in near future in case users want to expand the dataset. Stay tuned.
 
 ## Supporting Research
-![img1](https://github.com/zhenglinpan/SakugaDataset/blob/main/assets/img/feature_research.png)
+![img1](https://github.com/zhenglinpan/SakugaDataset/blob/main/assets/img/future_research.png)
 
 ## Demonstration
 
