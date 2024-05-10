@@ -28,11 +28,11 @@
 </div>
 
 ## Introduction
-This is the offical Github repository of **Sakuga-42M**. 
+This is the official GitHub repository of Sakuga-42M.
 
-Sakuga-42M Dataset is the first large-scale cartoon animation dataset, comprising 42 million keyframes. We hope our efforts on providing this foundamental large-scale dataset could somehow alleviate the data scarcity haunting this reseach domain for years, and make possible introducing large-scale models&approaches that leads to more robust and transferable applications that could help animators to create more easily.
+The Sakuga-42M Dataset is the first large-scale cartoon animation dataset, comprising 42 million keyframes. We hope that our efforts in providing this fundamental large-scale dataset could somehow alleviate the data scarcity that has haunted this research domain for years and make it possible to introduce large-scale models and approaches that lead to more robust and transferable applications, which could help animators create more easily.
 
-We hope more researchers could join us in this journey to explore the potential of cartoon animation research. Suggestions and contributions are always welcome.
+We hope that more researchers could join us on this journey to explore the potential of cartoon animation research. Suggestions and contributions are always welcome.
 
 ## TO-DO
 - [x] Release the dataset parquet files
