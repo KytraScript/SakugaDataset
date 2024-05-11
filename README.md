@@ -1,38 +1,25 @@
-<!--
- █████╗ ███╗   ██╗██╗████████╗ █████╗     ██████╗ ███████╗███████╗███████╗ █████╗ ██████╗  ██████╗██╗  ██╗
-██╔══██╗████╗  ██║██║╚══██╔══╝██╔══██╗    ██╔══██╗██╔════╝██╔════╝██╔════╝██╔══██╗██╔══██╗██╔════╝██║  ██║
-███████║██╔██╗ ██║██║   ██║   ███████║    ██████╔╝█████╗  ███████╗█████╗  ███████║██████╔╝██║     ███████║
-██╔══██║██║╚██╗██║██║   ██║   ██╔══██║    ██╔══██╗██╔══╝  ╚════██║██╔══╝  ██╔══██║██╔══██╗██║     ██╔══██║
-██║  ██║██║ ╚████║██║   ██║   ██║  ██║    ██║  ██║███████╗███████║███████╗██║  ██║██║  ██║╚██████╗██║  ██║
-╚═╝  ╚═╝╚═╝  ╚═══╝╚═╝   ╚═╝   ╚═╝  ╚═╝    ╚═╝  ╚═╝╚══════╝╚══════╝╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝
-                                                                                                          
--->
-
-
 ![img1](https://github.com/zhenglinpan/SakugaDataset/blob/main/assets/img/teaser.png)
 
 <h1 align="center"><a href="https://arxiv.org/abs/2403.06977">Sakuga-42M Dataset: Scaling Up Cartoon Reasearch</a></h1>
 <div align="center">
  
-[Zhenglin Pan](www.google.com), [Yu Zhu](www.google.com), [Yuxuan Mu](www.google.com)
+[Zhenglin Pan](https://github.com/zhenglinpan), [Yu Zhu](https://github.com/UNKNOWNTIMER), [Yuxuan Mu](https://github.com/Murrol?query=zhenglinpan)
 
 </div>
 
 <div align="center">
  
 [![Paper](https://img.shields.io/badge/cs.CV-2403.06977-b31b1b?logo=arxiv&logoColor=red)](https://arxiv.org/abs/2403.06977)
-[![Project Page](https://img.shields.io/badge/Project-Website-green)](https://snap-research.github.io/Panda-70M)
-[![Project Page](https://img.shields.io/badge/Dataset-Website-blue)](https://snap-research.github.io/Panda-70M)
 
 
 </div>
 
 ## Introduction
-This is the official GitHub repository of **Sakuga-42M**.
+This is the official GitHub repository of **Sakuga-42M**. 
 
 The **Sakuga-42M** Dataset is the first large-scale cartoon animation dataset, comprising 42 million keyframes. We hope that our efforts in providing this fundamental large-scale dataset could somehow alleviate the data scarcity that has haunted this research domain for years and make it possible to introduce large-scale models and approaches that lead to more robust and transferable applications, which could help animators create more easily.
 
-We hope that more researchers could join us on this journey to explore the potential of cartoon animation research. Suggestions and contributions are always welcome.
+We anticipate more researchers join us on this journey to explore the potential of cartoon animation research. Suggestions and contributions are always welcome.
 
 ## TO-DO
 - [x] Release the dataset parquet files
