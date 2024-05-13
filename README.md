@@ -2,12 +2,6 @@
 
 <h1 align="center"><a href="https://arxiv.org/abs/2403.06977">Sakuga-42M Dataset: Scaling Up Cartoon Reasearch</a></h1>
 <div align="center">
-
-<div align="center">
-  <a href="https://arxiv.org/abs/2403.06977">
-    <img src="https://github.com/zhenglinpan/SakugaDataset/blob/main/assets/img/icon.png" alt="Icon" style="width: 50px; display: block; margin: 0 auto;">
-  </a>
-</div>
  
 [Zhenglin Pan](https://github.com/zhenglinpan), [Yu Zhu](https://github.com/UNKNOWNTIMER), [Yuxuan Mu](https://yxmu.foo)
 
@@ -17,6 +11,12 @@
  
 [![Paper](https://img.shields.io/badge/cs.CV-2403.06977-b31b1b?logo=arxiv&logoColor=red)](https://arxiv.org/abs/2403.06977)
 
+
+<div align="center">
+  <a href="https://arxiv.org/abs/2403.06977">
+    <img src="https://github.com/zhenglinpan/SakugaDataset/blob/main/assets/img/icon.png" alt="Icon" style="width: 50px; display: block; margin: 0 auto;">
+  </a>
+</div>
 
 </div>
 
