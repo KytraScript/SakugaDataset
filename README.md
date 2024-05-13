@@ -12,29 +12,23 @@
 [![Paper](https://img.shields.io/badge/cs.CV-2403.06977-b31b1b?logo=arxiv&logoColor=red)](https://arxiv.org/abs/2403.06977)
 
 
-<div align="center">
-  <a href="https://arxiv.org/abs/2403.06977">
-    <img src="https://github.com/zhenglinpan/SakugaDataset/blob/main/assets/img/icon.png" alt="Icon" style="width: 50px; display: block; margin: 0 auto;">
-  </a>
 </div>
 
-</div>
-
-## Introduction <img src="https://github.com/zhenglinpan/SakugaDataset/blob/main/assets/img/icon.png" alt="Icon" width="20" height="20">
+## <img src="https://github.com/zhenglinpan/SakugaDataset/blob/main/assets/img/icon.png" alt="Icon" width="20" height="20"> Introduction
 This is the official GitHub repository of **Sakuga-42M**. 
 
 The **Sakuga-42M** Dataset is the first large-scale cartoon animation dataset, comprising 42 million keyframes. We hope that our efforts in providing this fundamental large-scale dataset could somehow alleviate the data scarcity that has haunted this research domain for years and make it possible to introduce large-scale models and approaches that lead to more robust and transferable applications, which could help animators create more easily.
 
 We anticipate more researchers join us on this journey to explore the potential of cartoon animation research. Suggestions and contributions are always welcome.
 
-## TO-DO
+## <img src="https://github.com/zhenglinpan/SakugaDataset/blob/main/assets/img/icon.png" alt="Icon" width="20" height="20"> TO-DO
 - [x] Release the dataset parquet files
 - [x] Release the dataset preparation codes
 - [ ] Release the pre-trained models
 - [ ] Release the tagging/rating, captioning, and text detection pipelines
 
 
-## Download
+## <img src="https://github.com/zhenglinpan/SakugaDataset/blob/main/assets/img/icon.png" alt="Icon" width="20" height="20"> Download
 
 ### Dataset
   | Split           | Download | # Keyframes | # Clips | # Videos | Storage|
@@ -45,7 +39,7 @@ We anticipate more researchers join us on this journey to explore the potential 
   | Validation  | [link](https://drive.google.com/file/d/1hppEnwjAXKV2UWgt04NPRfpnQAz7Mttf/view?usp=drive_link) (28.6 MB)  | 2,035,853 | 59,717 | 44,564 | ~25 GB |
   |  Testing  | [link](https://drive.google.com/file/d/1PAweBehBfQ5WbvzpzAx2kXsxi8v0lk7O/view?usp=drive_link) (28.5 MB) | 2,018,545   | 59,718  | 44,247 | ~25 GB |
 
-## Preperation
+## <img src="https://github.com/zhenglinpan/SakugaDataset/blob/main/assets/img/icon.png" alt="Icon" width="20" height="20"> Preperation
 ![img1](https://github.com/zhenglinpan/SakugaDataset/blob/main/assets/img/pipeline.png)
 
 Please follow the instructions below to prepare the complete dataset.
@@ -95,10 +89,10 @@ At this time, you should have the dataset ready for your research. Enjoy!
 
 We will be releasing the code for our tagging/rating, captioning, and text detection in near future in case users want to expand the dataset. Stay tuned.
 
-## Supporting Research
+## <img src="https://github.com/zhenglinpan/SakugaDataset/blob/main/assets/img/icon.png" alt="Icon" width="20" height="20"> Supporting Research
 ![img1](https://github.com/zhenglinpan/SakugaDataset/blob/main/assets/img/future_research.png)
 
-## Demonstration
+## <img src="https://github.com/zhenglinpan/SakugaDataset/blob/main/assets/img/icon.png" alt="Icon" width="20" height="20"> Demonstration
 
 ### Diversity
   <table class="center">
@@ -177,12 +171,12 @@ We will be releasing the code for our tagging/rating, captioning, and text detec
   </table>
 
 
-## Citation
+## <img src="https://github.com/zhenglinpan/SakugaDataset/blob/main/assets/img/icon.png" alt="Icon" width="20" height="20"> Citation
 If you find this project useful for your research, please cite our paper. 🤗
 
 ```latex
 
 ```
 
-## Contact
+## <img src="https://github.com/zhenglinpan/SakugaDataset/blob/main/assets/img/icon.png" alt="Icon" width="20" height="20"> Contact
 **Zhenglin Pan**: zhengli3@ualberta.ca
