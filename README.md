@@ -1,9 +1,11 @@
 ![img1](https://github.com/zhenglinpan/SakugaDataset/blob/main/assets/img/teaser.png)
 
+<h1 align="center"><a href="https://arxiv.org/abs/2403.06977">Sakuga-42M Dataset: Scaling Up Cartoon Reasearch</a></h1>
+<div align="center">
+
 <div align="center">
   <a href="https://arxiv.org/abs/2403.06977">
-    <img src="https://github.com/zhenglinpan/SakugaDataset/blob/main/assets/img/icon.png" alt="Icon" width="50" height="50" style="float:left;margin-right:10px;">
-    <h1>Sakuga-42M Dataset: Scaling Up Cartoon Research</h1>
+    <img src="https://github.com/zhenglinpan/SakugaDataset/blob/main/assets/img/icon.png" alt="Icon" style="width: 50px; display: block; margin: 0 auto;">
   </a>
 </div>
  
