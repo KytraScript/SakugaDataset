@@ -9,7 +9,7 @@
 
 <div align="center">
  
-[![Paper](https://img.shields.io/badge/cs.CV-2403.06977-b31b1b?logo=arxiv&logoColor=red)](https://arxiv.org/abs/2403.06977)
+[![Paper](https://img.shields.io/badge/cs.CV-2405.07425-b31b1b?logo=arxiv&logoColor=red)](https://arxiv.org/abs/2405.07425)
 
 
 </div>
@@ -175,7 +175,12 @@ We will be releasing the code for our tagging/rating, captioning, and text detec
 If you find this project useful for your research, please cite our paper. 🤗
 
 ```latex
-
+@article{sakuga42m2024,
+    title   = {Sakuga-42M Dataset: Scaling Up Cartoon Research},
+    author  = {Zhenglin Pan, Yu Zhu, Yuxuan Mu},
+    journal = {arXiv preprint arXiv:2405.07425},
+    year    = {2024}
+}
 ```
 
 ## <img src="https://github.com/zhenglinpan/SakugaDataset/blob/main/assets/img/icon.png" alt="Icon" width="20" height="20"> Contact
