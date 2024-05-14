@@ -53,6 +53,7 @@ Please follow the instructions below to prepare the complete dataset.
 
 ```bash
 git clone https://github.com/zhenglinpan/SakugaDataset.git
+cd SakugaDataset
 
 conda create -n sakuga -y
 conda activate sakuga

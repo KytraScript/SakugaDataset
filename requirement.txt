@@ -2,6 +2,6 @@ requests
 pandas
 tqdm
 gdown
-opencv
+opencv-python
 scenedetect
 scikit-image
