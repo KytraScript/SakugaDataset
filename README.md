@@ -21,6 +21,9 @@ The **Sakuga-42M** Dataset is the first large-scale cartoon animation dataset, c
 
 We anticipate more researchers join us on this journey to explore the potential of cartoon animation research. Suggestions and contributions are always welcome.
 
+**note:** We are still working on the repo&website, so please stay tuned for more updates!😉
+
+
 ## <img src="https://github.com/zhenglinpan/SakugaDataset/blob/main/assets/img/icon.png" alt="Icon" width="20" height="20"> TO-DO
 - [x] Release the dataset parquet files
 - [x] Release the dataset preparation codes
