@@ -5,3 +5,5 @@ gdown
 opencv-python
 scenedetect
 scikit-image
+pyarrow
+fastparquet
