@@ -34,16 +34,21 @@ We anticipate more researchers join us on this journey to explore the potential 
 ## <img src="https://github.com/zhenglinpan/SakugaDataset/blob/main/assets/img/icon.png" alt="Icon" width="20" height="20"> Download
 
 ### Dataset
-  | Split           | Download | # Keyframes | # Clips | # Videos | Storage|
-  |-----------------|----------|-----------------|-----------|----------------|--------------|
-  | Training(Full) | [link](https://drive.google.com/file/d/1lIHg-QdC3UaU0eT23bOrsYJF5Clmi43U/view?usp=drive_link) (529 MB) | 38,137,371 | 1,117,898 | 142,089  | ~441 GB  |
-  | Training (Aesthetic)    | [link](https://drive.google.com/file/d/115w27NosKhwDK_2BbAQ3twS6n3vDvAxV/view?usp=drive_link) (74.5 MB)  | 6,154,562     | 139,989      | 61,273  | ~56 GB |
-  | Training (Small)         | [link](https://drive.google.com/file/d/17CWls-_i7O2x2v4QzfSVNefELv3Rtyx1/view?usp=drive_link) (53.6 MB)  | 3,811,189     | 111,790      | 68,326  | ~45 GB |
-  | Validation  | [link](https://drive.google.com/file/d/1hppEnwjAXKV2UWgt04NPRfpnQAz7Mttf/view?usp=drive_link) (28.6 MB)  | 2,035,853 | 59,717 | 44,564 | ~25 GB |
-  |  Testing  | [link](https://drive.google.com/file/d/1PAweBehBfQ5WbvzpzAx2kXsxi8v0lk7O/view?usp=drive_link) (28.5 MB) | 2,018,545   | 59,718  | 44,247 | ~25 GB |
+
+Thank you guys for your enthusiasm😊! Many researchers are paying attention to our work, which is a positive development for animation research! However, we are receiving feedback that downloaders are causing a high load on the server. For a happy outcome for everyone, we have to take off the direct download links. But don't worry, this is still an open-source project in a way. You can fill out [this form](https://forms.gle/EwcaNGy4H7HCZYu86) to apply for the dataset parquet files, and we will send the download links via email to academic researchers. Thank you for your understanding.
+
+| Split           | Download | # Keyframes | # Clips | # Videos | Storage|
+|-----------------|----------|-----------------|-----------|----------------|--------------|
+| Training(Full) | link (529 MB) | 38,137,371 | 1,117,898 | 142,089  | ~441 GB  |
+| Training (Aesthetic)    | link (74.5 MB)  | 6,154,562     | 139,989      | 61,273  | ~56 GB |
+| Training (Small)         | link (53.6 MB)  | 3,811,189     | 111,790      | 68,326  | ~45 GB |
+| Validation  | link (28.6 MB)  | 2,035,853 | 59,717 | 44,564 | ~25 GB |
+|  Testing  | link (28.5 MB) | 2,018,545   | 59,718  | 44,247 | ~25 GB |
 
 ## <img src="https://github.com/zhenglinpan/SakugaDataset/blob/main/assets/img/icon.png" alt="Icon" width="20" height="20"> Preperation
 ![img1](https://github.com/zhenglinpan/SakugaDataset/blob/main/assets/img/pipeline.png)
+
+
 
 Please follow the instructions below to prepare the complete dataset.
 
