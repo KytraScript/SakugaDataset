@@ -66,16 +66,11 @@ pip install -r requirement.txt
 
 #### 2. Download Dataset
 
-One-key solution for downloading all videos😉:
-  ```bash
-  cd download
-  bash download.sh
-  ```
-Or step by step:
-   
-1. Download the parquet files from the following links and put them into `./download/parquet` folder.
+1. Fill out [this form](https://forms.gle/EwcaNGy4H7HCZYu86) to apply for the dataset parquet files.
 
-2. Run `./download/download.py` to download the videos, files will be saved in `./download/download` by default.
+2. Download the parquet files from the following links and put them into `./download/parquet` folder.
+
+3. Run `./download/download.py` to download the videos, files will be saved in `./download/download` by default.
 
 **note:** this step takes at least `15` hours.
 
