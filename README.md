@@ -1,6 +1,6 @@
 ![img1](https://github.com/zhenglinpan/SakugaDataset/blob/main/assets/img/teaser.png)
 
-<h1 align="center"><a href="https://arxiv.org/abs/2403.06977">Sakuga-42M Dataset: Scaling Up Cartoon Research</a></h1>
+<h1 align="center"><a href="https://arxiv.org/abs/2405.07425">Sakuga-42M Dataset: Scaling Up Cartoon Research</a></h1>
 <div align="center">
  
 [Zhenglin Pan](https://github.com/zhenglinpan), [Yu Zhu](https://github.com/UNKNOWNTIMER), [Yuxuan Mu](https://yxmu.foo)
