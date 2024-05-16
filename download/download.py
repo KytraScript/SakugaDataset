@@ -4,6 +4,7 @@ import requests
 import argparse
 import pandas as pd
 from tqdm import tqdm
+from pathlib import Path
 from urllib.parse import urlparse
 
 def download(args):
@@ -46,9 +47,10 @@ def download(args):
             time.sleep(0.35)  # Please don't change this value
     
 def main():
+    cwd = Path(__file__).parent
     parser = argparse.ArgumentParser()
-    parser.add_argument('--dir_parquets', type=str, default='./parquet', help='Path to parquet files')
-    parser.add_argument('--dir_download', type=str, default='./download', help='Path to download the videos')
+    parser.add_argument('--dir_parquets', type=str, default=str(cwd/'parquet'), help='Path to parquet files')
+    parser.add_argument('--dir_download', type=str, default=str(cwd/'download'), help='Path to download the videos')
     args = parser.parse_args()
     
     download(args)
